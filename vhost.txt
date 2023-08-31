@@ -1,0 +1,175 @@
+===============================================================
+Gobuster v3.5
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:             http://google.com
+[+] Method:          GET
+[+] Threads:         10
+[+] Wordlist:        /home/kali/Downloads/SecLists-master/Discovery/DNS/subdomains-top1million-5000.txt
+[+] User Agent:      gobuster/3.5
+[+] Timeout:         10s
+[+] Append Domain:   true
+===============================================================
+2023/08/28 09:53:43 Starting gobuster in VHOST enumeration mode
+===============================================================
+[2KFound: www.google.com Status: 200 [Size: 20709]
+[2KFound: dev.google.com Status: 301 [Size: 227] [--> https://developers.google.com/]
+[2KFound: m.google.com Status: 302 [Size: 282] [--> https://get.google.com/apptips/apps?utm_source=googlemobile&utm_campaign=redirect]
+[2KFound: blog.google.com Status: 301 [Size: 221] [--> https://www.blog.google/]
+[2KFound: mail.google.com Status: 301 [Size: 188] [--> /mail/]
+[2KFound: mobile.google.com Status: 301 [Size: 226] [--> http://www.google.com/mobile/]
+[2KFound: support.google.com Status: 301 [Size: 224] [--> https://support.google.com/]
+[2KFound: admin.google.com Status: 302 [Size: 369] [--> http://www.google.com/sorry/index?continue=http://admin.google.com/&q=EgRnXoZwGOfNsqcGIjBCbnEq9hE7FsXO32KW2irj9wjJPLflX65U9WvPqkAJh15ICq9EHGSVxXp60gcND2UyBj5qY25kcloBQw]
+[2KFound: news.google.com Status: 301 [Size: 0] [--> https://news.google.com/]
+[2KFound: images.google.com Status: 200 [Size: 20010]
+[2KFound: video.google.com Status: 301 [Size: 226] [--> http://www.google.com/videohp]
+[2KFound: search.google.com Status: 301 [Size: 220] [--> https://www.google.com/]
+[2KFound: ads.google.com Status: 301 [Size: 0] [--> https://ads.google.com/]
+[2KFound: wap.google.com Status: 302 [Size: 220] [--> https://wap.google.com/]
+[2KFound: ipv4.google.com Status: 200 [Size: 20688]
+[2KFound: store.google.com Status: 301 [Size: 0] [--> https://store.google.com/]
+[2KFound: chat.google.com Status: 301 [Size: 0] [--> https://chat.google.com/]
+[2KFound: apps.google.com Status: 301 [Size: 223] [--> https://gsuite.google.com/]
+[2KFound: files.google.com Status: 302 [Size: 222] [--> https://files.google.com/]
+[2KFound: home.google.com Status: 301 [Size: 0] [--> https://home.google.com/]
+[2KFound: blogs.google.com Status: 302 [Size: 219] [--> http://www.google.com/]
+[2KFound: help.google.com Status: 301 [Size: 224] [--> https://support.google.com/]
+[2KFound: tv.google.com Status: 302 [Size: 215] [--> https://tv.google/]
+[2KFound: services.google.com Status: 301 [Size: 220] [--> https://www.google.com/]
+[2KFound: survey.google.com Status: 301 [Size: 224] [--> https://surveys.google.com/]
+[2KFound: meet.google.com Status: 301 [Size: 0] [--> https://meet.google.com/]
+[2KFound: docs.google.com Status: 301 [Size: 0] [--> https://docs.google.com/]
+[2KFound: photo.google.com Status: 301 [Size: 223] [--> https://photos.google.com/]
+[2KFound: games.google.com Status: 301 [Size: 226] [--> https://plus.google.com/games]
+[2KFound: jobs.google.com Status: 301 [Size: 227] [--> https://jobs.google.com/about/]
+[2KFound: www.support.google.com Status: 301 [Size: 224] [--> https://support.google.com/]
+[2KFound: image.google.com Status: 301 [Size: 222] [--> http://images.google.com/]
+[2KFound: cloud.google.com Status: 301 [Size: 0] [--> https://cloud.google.com/]
+[2KFound: archive.google.com Status: 302 [Size: 220] [--> https://archive.google/]
+[2KFound: dl.google.com Status: 302 [Size: 51] [--> http://www.google.com/chrome]
+[2KFound: tools.google.com Status: 302 [Size: 226] [--> https://www.google.com/chrome]
+[2KFound: music.google.com Status: 301 [Size: 238] [--> https://music.youtube.com/googleplaymusic]
+[2KFound: edu.google.com Status: 302 [Size: 220] [--> https://edu.google.com/]
+[2KFound: www.news.google.com Status: 301 [Size: 220] [--> http://news.google.com/]
+[2KFound: travel.google.com Status: 301 [Size: 226] [--> https://www.google.com/travel]
+[2KFound: design.google.com Status: 302 [Size: 0] [--> https://design.google/]
+[2KFound: partners.google.com Status: 301 [Size: 229] [--> https://www.google.com/partners/]
+[2KFound: local.google.com Status: 302 [Size: 220] [--> http://maps.google.com/]
+[2KFound: business.google.com Status: 302 [Size: 0] [--> https://support.google.com/business?p=browser_support]
+[2KFound: maps.google.com Status: 302 [Size: 224] [--> http://maps.google.com/maps]
+[2KFound: events.google.com Status: 301 [Size: 223] [--> https://events.google.com/]
+[2KFound: time.google.com Status: 302 [Size: 232] [--> https://developers.google.com/time/]
+[2KFound: map.google.com Status: 301 [Size: 220] [--> http://maps.google.com/]
+[2KFound: photos.google.com Status: 301 [Size: 0] [--> https://photos.google.com/]
+[2KFound: calendar.google.com Status: 302 [Size: 0] [--> http://calendar.google.com/calendar/u/0/r]
+[2KFound: ww.google.com Status: 302 [Size: 220] [--> https://www.google.com/]
+[2KFound: pay.google.com Status: 301 [Size: 205] [--> https://pay.google.com/]
+[2KFound: mars.google.com Status: 301 [Size: 225] [--> https://www.google.com/mars/]
+[2KFound: www.ads.google.com Status: 302 [Size: 0] [--> http://ads.google.com/]
+[2KFound: orion.google.com Status: 301 [Size: 218] [--> https://orion.google/]
+[2KFound: health.google.com Status: 302 [Size: 219] [--> https://health.google/]
+[2KFound: shopping.google.com Status: 301 [Size: 0] [--> https://shopping.google.com/]
+[2KFound: foto.google.com Status: 301 [Size: 223] [--> https://photos.google.com/]
+[2KFound: careers.google.com Status: 301 [Size: 0] [--> https://careers.google.com/]
+[2KFound: domains.google.com Status: 301 [Size: 0] [--> https://domains.google.com/]
+[2KFound: work.google.com Status: 301 [Size: 227] [--> https://enterprise.google.com/]
+[2KFound: finance.google.com Status: 301 [Size: 0] [--> https://finance.google.com/]
+[2KFound: research.google.com Status: 302 [Size: 221] [--> https://research.google/]
+[2KFound: doc.google.com Status: 301 [Size: 0] [--> https://doc.google.com/]
+[2KFound: labs.google.com Status: 301 [Size: 225] [--> https://labs.withgoogle.com/]
+[2KFound: books.google.com Status: 302 [Size: 228] [--> https://books.google.com/?hl=en]
+[2KFound: analytics.google.com Status: 301 [Size: 240] [--> https://analytics.google.com/analytics/web/]
+[2KFound: code.google.com Status: 200 [Size: 5325]
+[2KFound: education.google.com Status: 301 [Size: 220] [--> https://edu.google.com/]
+[2KFound: sites.google.com Status: 302 [Size: 207] [--> https://sites.google.com/]
+[2KFound: account.google.com Status: 302 [Size: 226] [--> https://myaccount.google.com/]
+[2KFound: forms.google.com Status: 301 [Size: 241] [--> https://docs.google.com/forms?usp=direct_url]
+[2KFound: security.google.com Status: 301 [Size: 234] [--> https://myaccount.google.com/security]
+[2KFound: 1.google.com Status: 301 [Size: 220] [--> https://one.google.com/]
+[2KFound: play.google.com Status: 302 [Size: 0] [--> http://play.google.com/store]
+[2KFound: www.images.google.com Status: 301 [Size: 222] [--> http://images.google.com/]
+[2KFound: learning.google.com Status: 302 [Size: 221] [--> https://learning.google/]
+[2KFound: developer.google.com Status: 301 [Size: 227] [--> https://developers.google.com/]
+[2KFound: webmaster.google.com Status: 301 [Size: 231] [--> https://www.google.com/webmasters/]
+[2KFound: hotels.google.com Status: 301 [Size: 233] [--> https://www.google.com/travel/hotels]
+[2KFound: history.google.com Status: 301 [Size: 0] [--> https://history.google.com/]
+[2KFound: podcast.google.com Status: 301 [Size: 225] [--> https://podcasts.google.com/]
+[2KFound: sb.google.com Status: 302 [Size: 219] [--> http://www.google.com/]
+[2KFound: moon.google.com Status: 301 [Size: 225] [--> https://www.google.com/moon/]
+[2KFound: about.google.com Status: 301 [Size: 218] [--> https://about.google/]
+[2KFound: movies.google.com Status: 301 [Size: 226] [--> https://www.google.com/movies]
+[2KFound: print.google.com Status: 301 [Size: 221] [--> http://books.google.com/]
+[2KFound: food.google.com Status: 301 [Size: 0] [--> https://food.google.com/]
+[2KFound: profile.google.com Status: 301 [Size: 0] [--> https://profile.google.com/]
+[2KFound: sky.google.com Status: 301 [Size: 224] [--> https://www.google.com/sky/]
+[2KFound: surveys.google.com Status: 302 [Size: 0] [--> https://surveys.google.com/]
+[2KFound: plus.google.com Status: 301 [Size: 331] [--> https://workspace.google.com/blog/product-announcements/what-you-need-to-know-about-the-sunset-of-consumer-google-plus-on-april-second]
+[2KFound: groups.google.com Status: 301 [Size: 218] [--> http://groups.google.com/d/homeredir]
+[2KFound: myaccount.google.com Status: 301 [Size: 0] [--> https://myaccount.google.com/]
+[2KFound: lp.google.com Status: 302 [Size: 297] [--> https://lp.google.com/accounts/ServiceLogin?osid=1&passive=1&continue=https://lp.google.com/]
+[2KFound: enterprise.google.com Status: 301 [Size: 222] [--> https://cloud.google.com/]
+[2KFound: nexus.google.com Status: 301 [Size: 226] [--> https://www.google.com/nexus/]
+[2KFound: payments.google.com Status: 301 [Size: 210] [--> https://payments.google.com/]
+[2KFound: fi.google.com Status: 301 [Size: 0] [--> https://fi.google.com/]
+[2KFound: earth.google.com Status: 302 [Size: 226] [--> https://earth.google.com/web/]
+[2KFound: gmail.google.com Status: 301 [Size: 188] [--> /mail/]
+[2KFound: voice.google.com Status: 301 [Size: 0] [--> https://voice.google.com/]
+[2KFound: one.google.com Status: 301 [Size: 0] [--> https://one.google.com/]
+[2KFound: www.photo.google.com Status: 301 [Size: 223] [--> https://photos.google.com/]
+[2KFound: translate.google.com Status: 301 [Size: 0] [--> https://translate.google.com/]
+[2KFound: ipv6.google.com Status: 200 [Size: 20734]
+[2KFound: accounts.google.com Status: 302 [Size: 210] [--> https://accounts.google.com/]
+[2KFound: get.google.com Status: 301 [Size: 220] [--> https://www.google.com/]
+[2KFound: desktop.google.com Status: 200 [Size: 283]
+[2KFound: express.google.com Status: 301 [Size: 0] [--> https://express.google.com/]
+[2KFound: isp.google.com Status: 301 [Size: 0] [--> https://isp.google.com/]
+[2KFound: pki.google.com Status: 301 [Size: 214] [--> https://pki.goog/]
+[2KFound: aa.google.com Status: 404 [Size: 1642]
+[2KFound: fotos.google.com Status: 301 [Size: 223] [--> https://photos.google.com/]
+[2KFound: europe.google.com Status: 200 [Size: 20721]
+[2KFound: donate.google.com Status: 301 [Size: 0] [--> https://donate.google.com/]
+[2KFound: channel.google.com Status: 301 [Size: 0] [--> https://channel.google.com/]
+[2KFound: asia.google.com Status: 200 [Size: 20692]
+[2KFound: script.google.com Status: 301 [Size: 208] [--> https://script.google.com/]
+[2KFound: gd.google.com Status: 302 [Size: 219] [--> http://www.google.com/]
+[2KFound: ai.google.com Status: 301 [Size: 215] [--> https://ai.google/]
+[2KFound: www.docs.google.com Status: 301 [Size: 0] [--> https://www.docs.google.com/]
+[2KFound: fusion.google.com Status: 302 [Size: 219] [--> http://www.google.com/]
+[2KFound: ebooks.google.com Status: 301 [Size: 227] [--> http://books.google.com/ebooks]
+[2KFound: profiles.google.com Status: 301 [Size: 0] [--> https://profiles.google.com/]
+[2KFound: pixel.google.com Status: 302 [Size: 237] [--> https://store.google.com/category/phones]
+[2KFound: developers.google.com Status: 301 [Size: 0] [--> https://developers.google.com/]
+[2KFound: safety.google.com Status: 302 [Size: 219] [--> https://safety.google/]
+[2KFound: messages.google.com Status: 301 [Size: 225] [--> https://messages.google.com/]
+[2KFound: www.photos.google.com Status: 301 [Size: 223] [--> https://photos.google.com/]
+[2KFound: cse.google.com Status: 301 [Size: 223] [--> http://cse.google.com/cse/]
+[2KFound: documents.google.com Status: 301 [Size: 0] [--> https://documents.google.com/]
+[2KFound: offers.google.com Status: 301 [Size: 227] [--> https://www.google.com/offers/]
+[2KFound: tasks.google.com Status: 404 [Size: 1642]
+[2KFound: www.image.google.com Status: 301 [Size: 222] [--> http://images.google.com/]
+[2KFound: toolbar.google.com Status: 302 [Size: 240] [--> http://www.google.com/toolbar/ie/index.html]
+[2KFound: elections.google.com Status: 301 [Size: 222] [--> https://elections.google/]
+[2KFound: apis.google.com Status: 301 [Size: 226] [--> http://developers.google.com/]
+[2KFound: contacts.google.com Status: 301 [Size: 0] [--> https://contacts.google.com/]
+[2KFound: vr.google.com Status: 302 [Size: 221] [--> https://arvr.google.com/]
+[2KFound: alerts.google.com Status: 301 [Size: 226] [--> https://www.google.com/alerts]
+[2KFound: goto.google.com Status: 404 [Size: 272]
+[2KFound: wave.google.com Status: 301 [Size: 266] [--> http://support.google.com/wave/bin/answer.py?hl=en&answer=1083134]
+[2KFound: pride.google.com Status: 301 [Size: 218] [--> https://pride.google/]
+[2KFound: investor.google.com Status: 302 [Size: 222] [--> https://abc.xyz/investor/]
+[2KFound: inbox.google.com Status: 301 [Size: 230] [--> https://mail.google.com/mail/u/0/]
+[2KFound: opensource.google.com Status: 301 [Size: 223] [--> https://opensource.google/]
+[2KFound: drive.google.com Status: 301 [Size: 0] [--> https://drive.google.com/]
+[2KFound: postmaster.google.com Status: 301 [Size: 212] [--> https://postmaster.google.com/]
+[2KFound: blogger.google.com Status: 301 [Size: 227] [--> https://www.google.com/blogger]
+[2KFound: answers.google.com Status: 301 [Size: 231] [--> http://answers.google.com/answers/]
+[2KFound: www.gmail.google.com Status: 301 [Size: 220] [--> http://mail.google.com/]
+[2KFound: reader.google.com Status: 301 [Size: 233] [--> https://www.google.com/reader/about/]
+[2KFound: www.plus.google.com Status: 301 [Size: 221] [--> https://plus.google.com/]
+[2KFound: aol.google.com Status: 200 [Size: 20706]
+[2KFound: workspace.google.com Status: 301 [Size: 226] [--> https://workspace.google.com/]
+[2KFound: chrome.google.com Status: 301 [Size: 227] [--> https://www.google.com/chrome/]
+
+===============================================================
+2023/08/28 09:55:05 Finished
+===============================================================

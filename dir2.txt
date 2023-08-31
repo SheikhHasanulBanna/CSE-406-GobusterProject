@@ -1,0 +1,125 @@
+===============================================================
+Gobuster v3.5
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://www.geeksforgeeks.org/
+[+] Method:                  GET
+[+] Threads:                 20
+[+] Wordlist:                /home/kali/Downloads/SecLists-master/Discovery/Web-Content/common.txt
+[+] Negative Status codes:   404,301
+[+] User Agent:              gobuster/3.5
+[+] Expanded:                true
+[+] Timeout:                 10s
+===============================================================
+2023/08/27 08:24:34 Starting gobuster in directory enumeration mode
+===============================================================
+
+[2Khttps://www.geeksforgeeks.org/.git/HEAD            (Status: 403) [Size: 71]
+
+[2Khttps://www.geeksforgeeks.org/.htaccess            (Status: 403) [Size: 71]
+
+[2Khttps://www.geeksforgeeks.org/.git/config          (Status: 403) [Size: 71]
+
+[2Khttps://www.geeksforgeeks.org/.git/logs/           (Status: 403) [Size: 71]
+
+[2Khttps://www.geeksforgeeks.org/.git/index           (Status: 403) [Size: 71]
+
+[2Khttps://www.geeksforgeeks.org/.hta                 (Status: 403) [Size: 71]
+
+[2Khttps://www.geeksforgeeks.org/.htpasswd            (Status: 403) [Size: 71]
+
+[2Khttps://www.geeksforgeeks.org/authors              (Status: 403) [Size: 277]
+
+[2Khttps://www.geeksforgeeks.org/authorized_keys      (Status: 403) [Size: 289]
+
+[2Khttps://www.geeksforgeeks.org/authuser             (Status: 403) [Size: 278]
+
+[2Khttps://www.geeksforgeeks.org/autobackup           (Status: 403) [Size: 280]
+
+[2Khttps://www.geeksforgeeks.org/auto                 (Status: 403) [Size: 274]
+
+[2Khttps://www.geeksforgeeks.org/autodiscover         (Status: 403) [Size: 282]
+
+[2Khttps://www.geeksforgeeks.org/autologin            (Status: 403) [Size: 279]
+
+[2Khttps://www.geeksforgeeks.org/autodeploy           (Status: 403) [Size: 280]
+
+[2Khttps://www.geeksforgeeks.org/automation           (Status: 403) [Size: 280]
+
+[2Khttps://www.geeksforgeeks.org/avatar               (Status: 403) [Size: 276]
+
+[2Khttps://www.geeksforgeeks.org/avatars              (Status: 403) [Size: 277]
+
+[2Khttps://www.geeksforgeeks.org/aux                  (Status: 403) [Size: 273]
+
+[2Khttps://www.geeksforgeeks.org/av                   (Status: 403) [Size: 272]
+
+[2Khttps://www.geeksforgeeks.org/award                (Status: 403) [Size: 275]
+
+[2Khttps://www.geeksforgeeks.org/aw                   (Status: 403) [Size: 272]
+
+[2Khttps://www.geeksforgeeks.org/awards               (Status: 403) [Size: 276]
+
+[2Khttps://www.geeksforgeeks.org/axis2                (Status: 403) [Size: 275]
+
+[2Khttps://www.geeksforgeeks.org/axis2-admin          (Status: 403) [Size: 285]
+
+[2Khttps://www.geeksforgeeks.org/backup2              (Status: 403) [Size: 277]
+
+[2Khttps://www.geeksforgeeks.org/backup_migrate       (Status: 403) [Size: 288]
+
+[2Khttps://www.geeksforgeeks.org/bak                  (Status: 403) [Size: 273]
+
+[2Khttps://www.geeksforgeeks.org/bandwidth            (Status: 403) [Size: 279]
+
+[2Khttps://www.geeksforgeeks.org/banner               (Status: 403) [Size: 276]
+
+[2Khttps://www.geeksforgeeks.org/basic                (Status: 200) [Size: 310618]
+
+[2Khttps://www.geeksforgeeks.org/beheer               (Status: 403) [Size: 276]
+
+[2Khttps://www.geeksforgeeks.org/big                  (Status: 403) [Size: 273]
+
+[2Khttps://www.geeksforgeeks.org/blog_inlinemod       (Status: 403) [Size: 288]
+
+[2Khttps://www.geeksforgeeks.org/bloggers             (Status: 403) [Size: 278]
+
+[2Khttps://www.geeksforgeeks.org/blogindex            (Status: 403) [Size: 279]
+
+[2Khttps://www.geeksforgeeks.org/canada               (Status: 403) [Size: 276]
+
+[2Khttps://www.geeksforgeeks.org/captcha              (Status: 403) [Size: 277]
+
+[2Khttps://www.geeksforgeeks.org/carbuyaction         (Status: 403) [Size: 282]
+
+[2Khttps://www.geeksforgeeks.org/car                  (Status: 403) [Size: 273]
+
+[2Khttps://www.geeksforgeeks.org/cards                (Status: 403) [Size: 275]
+
+[2Khttps://www.geeksforgeeks.org/career               (Status: 403) [Size: 276]
+
+[2Khttps://www.geeksforgeeks.org/cas                  (Status: 403) [Size: 273]
+
+[2Khttps://www.geeksforgeeks.org/courses              (Status: 200) [Size: 237258]
+
+[2Khttps://www.geeksforgeeks.org/easy                 (Status: 200) [Size: 310383]
+
+[2Khttps://www.geeksforgeeks.org/favicon.ico          (Status: 200) [Size: 101468]
+
+[2Khttps://www.geeksforgeeks.org/expert               (Status: 200) [Size: 307500]
+
+[2Khttps://www.geeksforgeeks.org/hard                 (Status: 200) [Size: 312028]
+
+[2Khttps://www.geeksforgeeks.org/jobs                 (Status: 200) [Size: 234448]
+
+[2Khttps://www.geeksforgeeks.org/medium               (Status: 200) [Size: 312202]
+
+[2Khttps://www.geeksforgeeks.org/robots.txt           (Status: 200) [Size: 157]
+
+[2Khttps://www.geeksforgeeks.org/server-status        (Status: 403) [Size: 71]
+
+[2Khttps://www.geeksforgeeks.org/xmlrpc.php           (Status: 403) [Size: 71]
+
+===============================================================
+2023/08/27 08:26:02 Finished
+===============================================================
