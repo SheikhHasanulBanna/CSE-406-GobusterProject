@@ -4,7 +4,10 @@
 
                   >> gobuster dir -u http://testphp.vulnweb.com/  -w /home/kali/Downloads/SecLists-master/Discovery/Web-Content/common.txt -t 20 -e  > dirvuln.txt
                   [this is vulnerable. the pages not shown in website can be accessed here.]
-                
+                  >> gobuster dir -u moodle.cse.buet.ac.bd/javascript/jquery  -w /home/kali/Downloads/SecLists-master/Discovery/Web-Content/common.txt -t 20 -e --exclude-length 361 -r  > dirtest.txt
+                    [this is not vulnerable. we can view a 200 inside 403.]
+                  >> gobuster dir -u https://gobustme.ctflearn.com/ -w /home/kali/common.txt -e > dirtest.txt
+                    [for ctf problem https://ctflearn.com/challenge/1116, the flag is in /hide ]
 2. dns test >> gobuster dns -d google.com -w /home/kali/Downloads/SecLists-master/Discovery/DNS/subdomains-top1million-5000.txt -i > dns.txt
 
 3. vhost test >> gobuster vhost -u google.com -w /home/kali/Downloads/SecLists-master/Discovery/DNS/subdomains-top1million-5000.txt --append-domain > vhost.txt
