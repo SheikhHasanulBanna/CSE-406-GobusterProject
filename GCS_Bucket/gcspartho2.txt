@@ -1,0 +1,19 @@
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Threads:                 100
+[+] Wordlist:                ./s3words.txt
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+[+] Maximum files to list:   5
+===============================================================
+Starting gobuster in GCS bucket enumeration mode
+===============================================================
+[2Khttps://storage.googleapis.com/storage/v1/b/101/o
+
+[!] Keyboard interrupt detected, terminating.
+
+===============================================================
+Finished
+===============================================================
